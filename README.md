@@ -70,3 +70,7 @@ This project focuses on analyzing customer sentiment in the US mobile phone indu
 | `WEB_AND_SOCIAL_MEDIA_ANALYTICS_PPT_RECORDING.mp4` | Recorded walkthrough explaining the methodology, key insights, and implementation strategies for business stakeholders.  |
 | `README.md`                                     | Comprehensive project documentation.  |
 
+## 📢 Credits & References
+
+- **Project by:** Om Shirke
+
