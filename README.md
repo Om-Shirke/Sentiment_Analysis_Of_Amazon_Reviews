@@ -45,4 +45,28 @@ This project focuses on analyzing customer sentiment in the US mobile phone indu
 
 #### ✅ Business Insights  
 - This model effectively **classifies sentiment in real-time**, making it useful for automating sentiment analysis tasks.  
-- The high **AUC score (90%)** confirms the model's strong predictive power, ensuring **accurate sentiment classification** for new reviews.  
+- The high **AUC score (90%)** confirms the model's strong predictive power, ensuring **accurate sentiment classification** for new reviews.
+
+## 🛠 How to Run
+**Clone the repository:**
+   ```bash
+   git clone <https://github.com/Om-Shirke/Sentiment_Analysis_Of_Amazon_Reviews.git>
+```
+## 📈 Future Improvements  
+
+- **Hyperparameter Optimization:** Use **GridSearchCV** or **RandomizedSearchCV** to fine-tune model parameters for better performance.  
+- **Real-Time Sentiment Analysis:** Deploy the model for **live sentiment classification**, enabling businesses to monitor customer feedback in real-time.  
+- **Feature Engineering Enhancements:** Experiment with **n-grams, word embeddings (Word2Vec, TF-IDF), and deep learning-based text representations** to capture more nuanced sentiments.  
+
+## 📂 Project Structure  
+
+| File Name                                         | Description  |
+|--------------------------------------------------|--------------------------------------------------------------|
+| `Merged_Dataframe.csv`                           | Comprehensive dataset containing Amazon customer reviews for sentiment analysis.  |
+| `Negative_Features.csv`                          | Corpus of negative words used for sentiment classification.  |
+| `Positive_Features.csv`                          | Corpus of positive words used for sentiment classification.  |
+| `WEB_AND_SOCIAL_MEDIA_ANALYTICS_CAPSTONE_PROJECT.twbx`  | Tableau workbook with text analysis, visualizations, and key insights into customer sentiment and behavior.  |
+| `WEB_AND_SOCIAL_MEDIA_ANALYTICS_Presentation.pptx` | Business presentation covering all findings, visualizations, and strategic recommendations for stakeholders.  |
+| `WEB_AND_SOCIAL_MEDIA_ANALYTICS_PPT_RECORDING.mp4` | Recorded walkthrough explaining the methodology, key insights, and implementation strategies for business stakeholders.  |
+| `README.md`                                     | Comprehensive project documentation.  |
+
