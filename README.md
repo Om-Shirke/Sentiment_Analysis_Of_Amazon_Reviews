@@ -15,3 +15,34 @@ This project focuses on analyzing customer sentiment in the US mobile phone indu
   - **Model Training:** Scikit-learn (Naïve Bayes - MultinomialNB)  
 - **Dataset Handling:** Gzip, Shutil  
 - **Model Used:** Naïve Bayes (MultinomialNB) for Sentiment Classification  
+
+## 🔍 Exploratory Data Analysis (EDA)  
+
+- **Data Cleaning & Preprocessing:**  
+  - Handled missing values and duplicate entries.  
+  - Extracted relevant features from metadata and structured raw text data.  
+
+- **Feature Engineering:**  
+  - Tokenized and lemmatized text data for better analysis.  
+  - Used TF-IDF vectorization to transform textual data into numerical format.  
+
+- **Visualization:**  
+  - Used Matplotlib, Seaborn, and Plotly to analyze sentiment trends and key market insights.  
+  - Created visualizations for competitor analysis, customer sentiment distribution, and feature importance.  
+## ⚡ Key Findings & Insights  
+
+#### 🔹 Model Performance  
+- **Test Dataset:**  
+  - Accuracy: **89%**  
+  - Sensitivity (Recall): **87%**  
+  - Specificity: **82%**  
+  - Area Under Curve (AUC): **90%**  
+
+#### 📈 Model Improvements & Impact  
+- The initial model without oversampling had **high sensitivity (0.95) but low specificity (0.59)**, meaning it identified positive cases well but struggled with negative cases.  
+- **Applying oversampling** resulted in a more balanced dataset, improving the model's ability to correctly classify both positive and negative cases.  
+- The refined model **outperforms the previous one**, offering better generalizability and prediction reliability.  
+
+#### ✅ Business Insights  
+- This model effectively **classifies sentiment in real-time**, making it useful for automating sentiment analysis tasks.  
+- The high **AUC score (90%)** confirms the model's strong predictive power, ensuring **accurate sentiment classification** for new reviews.  
